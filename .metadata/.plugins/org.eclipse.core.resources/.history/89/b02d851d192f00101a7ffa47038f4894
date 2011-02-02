@@ -18,7 +18,7 @@ public class AdicaoDeProduto {
 	
 	Produto produto = new Produto();
 	produto.setNome("Bola");
-	produto.setDescricao("bola de futebol Nike");
+	produto.setDescricao("bola de futebol Adidas");
 	produto.setPreco(40.50);
 	
 	Transaction tx = session.beginTransaction();
