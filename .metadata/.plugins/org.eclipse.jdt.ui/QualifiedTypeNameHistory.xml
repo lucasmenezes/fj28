@@ -10,4 +10,5 @@
 <fullyQualifiedTypeName name="br.com.caelum.goodbuy.modelo.Produto"/>
 <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
 <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+<fullyQualifiedTypeName name="br.com.caelum.goodbuy.dao.ProdutoDao"/>
 </qualifiedTypeNameHistroy>

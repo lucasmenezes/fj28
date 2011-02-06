@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
 <window height="752" maximized="true" width="1020" x="0" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -33,6 +33,7 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -45,17 +46,21 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/vraptor-blank-project/src/hibernate.cfg.xml"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="738" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdicaoDeProduto.java" partName="AdicaoDeProduto.java" path="/home/lucas/desenv/fj28/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AdicaoDeProduto.java" title="AdicaoDeProduto.java" tooltip="vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AdicaoDeProduto.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdicaoDeProduto.java" partName="AdicaoDeProduto.java" path="/home/lucas/desenv/fj28/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AdicaoDeProduto.java" title="AdicaoDeProduto.java" tooltip="vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AdicaoDeProduto.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AdicaoDeProduto.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="623" selectionTopPixel="51"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="477" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AlteracaoDeProduto.java" partName="AlteracaoDeProduto.java" path="/home/lucas/desenv/fj28/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AlteracaoDeProduto.java" title="AlteracaoDeProduto.java" tooltip="vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AlteracaoDeProduto.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AlteracaoDeProduto.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="571" selectionOffset="380" selectionTopPixel="348"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="328" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RemocaoDeProduto.java" partName="RemocaoDeProduto.java" path="/home/lucas/desenv/fj28/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/RemocaoDeProduto.java" title="RemocaoDeProduto.java" tooltip="vraptor-blank-project/src/br/com/caelum/goodbuy/testes/RemocaoDeProduto.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RemocaoDeProduto.java" partName="RemocaoDeProduto.java" path="/home/lucas/desenv/fj28/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/RemocaoDeProduto.java" title="RemocaoDeProduto.java" tooltip="vraptor-blank-project/src/br/com/caelum/goodbuy/testes/RemocaoDeProduto.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/RemocaoDeProduto.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="749" selectionTopPixel="161"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="370" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProdutoDao.java" partName="ProdutoDao.java" path="/home/lucas/desenv/fj28/vraptor-blank-project/src/br/com/caelum/goodbuy/dao/ProdutoDao.java" title="ProdutoDao.java" tooltip="vraptor-blank-project/src/br/com/caelum/goodbuy/dao/ProdutoDao.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/dao/ProdutoDao.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="738" selectionTopPixel="213"/>
 </editor>
 </editors>
 <views>
@@ -63,10 +68,10 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (10 items)"/>
+<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="337" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -198,7 +203,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.26882592" ratioLeft="332" ratioRight="903" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.67580646" ratioLeft="419" ratioRight="201" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.92096776" ratioLeft="571" ratioRight="49" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -216,7 +221,7 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
@@ -230,164 +235,161 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/vraptor-blank-project/src/hibernate.cfg.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/modelo/Produto.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/vraptor-blank-project/src/hibernate.cfg.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/modelo/Produto.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/TesteDeSessao.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AdicaoDeProduto.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/infra/CriadorDeSession.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/dao/ProdutoDao.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/AlteracaoDeProduto.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/RemocaoDeProduto.java"/>
 </editors>
-<item historyLabel="hibernate.cfg.xml" index="0">
-<position info="not_deleted" x="318" y="0"/>
+<item historyLabel="AdicaoDeProduto.java" index="0">
+<position info="not_deleted" x="37" y="0"/>
 </item>
-<item historyLabel="Produto.java" index="1">
-<position info="not_deleted" x="205" y="0"/>
-</item>
-<item historyLabel="hibernate.cfg.xml" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Produto.java" index="3">
-<position info="not_deleted" x="197" y="0"/>
-</item>
-<item historyLabel="TesteDeSessao.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TesteDeSessao.java" index="4">
+<item historyLabel="AlteracaoDeProduto.java" index="3">
 <position/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="652" y="0"/>
+<item historyLabel="ProdutoDao.java" index="2">
+<position/>
 </item>
-<item historyLabel="Produto.java" index="3">
-<position info="not_deleted" x="197" y="0"/>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="406" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="652" y="0"/>
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="427" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="577" y="0"/>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="406" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="652" y="0"/>
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="507" y="0"/>
 </item>
-<item historyLabel="Produto.java" index="3">
-<position info="not_deleted" x="197" y="0"/>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="652" y="0"/>
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="507" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="624" y="0"/>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="369" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="577" y="0"/>
+<item historyLabel="AdicaoDeProduto.java" index="0">
+<position info="not_deleted" x="37" y="0"/>
 </item>
-<item historyLabel="Produto.java" index="3">
-<position info="not_deleted" x="197" y="0"/>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="362" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="577" y="0"/>
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="507" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="657" y="0"/>
+<item historyLabel="CriadorDeSession.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="2">
-<position info="not_deleted" x="797" y="0"/>
+<item historyLabel="AdicaoDeProduto.java" index="0">
+<position info="not_deleted" x="37" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="310" y="0"/>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="403" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="2">
-<position info="not_deleted" x="797" y="0"/>
+<item historyLabel="AdicaoDeProduto.java" index="0">
+<position info="not_deleted" x="37" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="231" y="0"/>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="403" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="2">
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="612" y="0"/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="170" y="0"/>
+</item>
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="612" y="0"/>
+</item>
+<item historyLabel="CriadorDeSession.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="612" y="0"/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="298" y="0"/>
+</item>
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="612" y="0"/>
+</item>
+<item historyLabel="CriadorDeSession.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="380" y="0"/>
+</item>
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="635" y="0"/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="AdicaoDeProduto.java" index="0">
+<position info="not_deleted" x="483" y="0"/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="CriadorDeSession.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="ProdutoDao.java" index="2">
+<position info="not_deleted" x="635" y="0"/>
+</item>
+<item historyLabel="RemocaoDeProduto.java" index="4">
+<position/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="RemocaoDeProduto.java" index="4">
+<position/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="RemocaoDeProduto.java" index="4">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="RemocaoDeProduto.java" index="4">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="RemocaoDeProduto.java" index="4">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="ProdutoDao.java" index="2">
 <position info="not_deleted" x="738" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="231" y="0"/>
+<item historyLabel="RemocaoDeProduto.java" index="4">
+<position info="not_deleted" x="370" y="0"/>
 </item>
-<item historyLabel="Produto.java" index="3">
-<position info="not_deleted" x="197" y="0"/>
+<item historyLabel="AlteracaoDeProduto.java" index="3">
+<position info="not_deleted" x="328" y="0"/>
 </item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="231" y="0"/>
+<item historyLabel="AdicaoDeProduto.java" index="0">
+<position info="not_deleted" x="483" y="0"/>
 </item>
-<item historyLabel="Produto.java" index="3">
-<position/>
-</item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="547" y="0"/>
-</item>
-<item historyLabel="Produto.java" index="3">
-<position info="not_deleted" x="145" y="0"/>
-</item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="227" y="0"/>
-</item>
-<item historyLabel="Produto.java" index="3">
-<position/>
-</item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="176" y="0"/>
-</item>
-<item historyLabel="Produto.java" index="3">
-<position/>
-</item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="214" y="0"/>
-</item>
-<item historyLabel="Produto.java" index="3">
-<position info="not_deleted" x="159" y="0"/>
-</item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="214" y="0"/>
-</item>
-<item historyLabel="Produto.java" index="3">
-<position info="not_deleted" x="39" y="0"/>
-</item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="214" y="0"/>
-</item>
-<item historyLabel="hibernate.cfg.xml" index="2">
+<item historyLabel="ProdutoDao.java" index="2">
 <position info="not_deleted" x="738" y="0"/>
 </item>
-<item historyLabel="Produto.java" index="3">
-<position info="not_deleted" x="143" y="0"/>
-</item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="410" y="0"/>
-</item>
-<item historyLabel="AlteracaoDeProduto.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AlteracaoDeProduto.java" index="6">
-<position info="not_deleted" x="952" y="0"/>
-</item>
-<item historyLabel="AlteracaoDeProduto.java" index="6">
-<position info="not_deleted" x="653" y="0"/>
-</item>
-<item historyLabel="AlteracaoDeProduto.java" index="6">
-<position info="not_deleted" x="909" y="0"/>
-</item>
-<item historyLabel="RemocaoDeProduto.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AlteracaoDeProduto.java" index="6">
-<position info="not_deleted" x="380" y="571"/>
-</item>
-<item historyLabel="RemocaoDeProduto.java" index="7">
-<position info="not_deleted" x="718" y="0"/>
-</item>
-<item historyLabel="AdicaoDeProduto.java" index="5">
-<position info="not_deleted" x="623" y="0"/>
-</item>
-<item active="true" historyLabel="RemocaoDeProduto.java" index="7">
-<position info="not_deleted" x="718" y="0"/>
+<item active="true" historyLabel="AdicaoDeProduto.java" index="0">
+<position info="not_deleted" x="483" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -409,6 +411,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProdutoDao.java" tooltip="vraptor-blank-project/src/br/com/caelum/goodbuy/dao/ProdutoDao.java">
+<persistable path="/vraptor-blank-project/src/br/com/caelum/goodbuy/dao/ProdutoDao.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CriadorDeSession.java" tooltip="vraptor-blank-project/src/br/com/caelum/goodbuy/infra/CriadorDeSession.java">
+<persistable path="/vraptor-blank-project/src/br/com/caelum/goodbuy/infra/CriadorDeSession.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RemocaoDeProduto.java" tooltip="vraptor-blank-project/src/br/com/caelum/goodbuy/testes/RemocaoDeProduto.java">
 <persistable path="/vraptor-blank-project/src/br/com/caelum/goodbuy/testes/RemocaoDeProduto.java"/>
 </file>
