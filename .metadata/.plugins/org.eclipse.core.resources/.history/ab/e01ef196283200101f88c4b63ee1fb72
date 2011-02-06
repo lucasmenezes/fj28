@@ -1,0 +1,29 @@
+package br.com.caelum.goodbuy.testes;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import br.com.caelum.goodbuy.dao.ProdutoDao;
+import br.com.caelum.goodbuy.infra.CriadorDeSession;
+import br.com.caelum.goodbuy.modelo.Produto;
+
+public class AdicaoDeProduto {
+	public static void main(String[] args) {
+	
+	Session session = CriadorDeSession.getSession();
+	
+	
+	Produto produto = ProdutoDao.criaProduto();
+	
+	
+	gravaProduto(session, produto);
+
+	}
+
+	private static void gravaProduto(Session session, Produto produto) {
+		
+		Transaction tx = session.beginTransaction();
+		session.save(produto);
+		tx.commit();
+	}
+}

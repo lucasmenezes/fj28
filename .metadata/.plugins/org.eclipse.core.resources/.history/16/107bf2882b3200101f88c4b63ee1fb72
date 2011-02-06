@@ -1,0 +1,39 @@
+package br.com.caelum.goodbuy.testes;
+
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+import br.com.caelum.goodbuy.modelo.Produto;
+
+public class AlteracaoDeProduto {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Session session = getSession();
+		
+		Produto produto = (Produto)session.load(Produto.class, 1L);
+				
+		Transaction tx = session.beginTransaction();
+		produto.setPreco(42.50);
+		session.update(produto);
+		tx.commit();
+	
+	}
+
+	private static Session getSession() {
+		AnnotationConfiguration configuration = new AnnotationConfiguration();
+		configuration.configure();
+		
+		SessionFactory factory = configuration.buildSessionFactory();
+		Session session = factory.openSession();
+		return session;
+	}
+
+}

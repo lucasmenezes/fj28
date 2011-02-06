@@ -1,0 +1,43 @@
+package br.com.caelum.goodbuy.dao;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import br.com.caelum.goodbuy.infra.CriadorDeSession;
+import br.com.caelum.goodbuy.modelo.Produto;
+import br.com.caelum.goodbuy.testes.AlteracaoDeProduto;
+
+public class ProdutoDao {
+	
+	private final Session session;
+	
+	public ProdutoDao(){
+		
+		this.session = CriadorDeSession.getSession();
+	}
+	
+	public void salva(Produto produto) {
+		
+		Transaction tx = session.beginTransaction();
+		session.save(produto);
+		tx.commit();
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		Session session = AlteracaoDeProduto.getSession();
+		
+		Produto produto = (Produto)session.load(Produto.class, 1L);
+				
+		Transaction tx = session.beginTransaction();
+		produto.setPreco(42.50);
+		session.update(produto);
+		tx.commit();
+	
+	}
+
+}

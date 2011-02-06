@@ -1,0 +1,17 @@
+package br.com.caelum.goodbuy.dao;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import br.com.caelum.goodbuy.modelo.Produto;
+
+public class ProdutoDao {
+
+	public static void gravaProduto(Session session, Produto produto) {
+		
+		Transaction tx = session.beginTransaction();
+		session.save(produto);
+		tx.commit();
+	}
+
+}
