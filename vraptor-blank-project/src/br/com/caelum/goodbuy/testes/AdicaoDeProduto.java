@@ -9,21 +9,40 @@ import br.com.caelum.goodbuy.modelo.Produto;
 
 public class AdicaoDeProduto {
 	public static void main(String[] args) {
+	
+	Session session = getSession();
+	
+	
+	Produto produto = criaProduto();
+	
+	
+	gravaProduto(session, produto);
 
-	AnnotationConfiguration configuration = new AnnotationConfiguration();
-	configuration.configure();
-	
-	SessionFactory factory = configuration.buildSessionFactory();
-	Session session = factory.openSession();
-	
-	Produto produto = new Produto();
-	produto.setNome("Bola");
-	produto.setDescricao("bola de futebol Nike");
-	produto.setPreco(40.50);
-	
-	Transaction tx = session.beginTransaction();
-	session.save(produto);
-	tx.commit();
+	}
 
+	private static void gravaProduto(Session session, Produto produto) {
+		
+		Transaction tx = session.beginTransaction();
+		session.save(produto);
+		tx.commit();
+	}
+
+	private static Produto criaProduto() {
+		
+		Produto produto = new Produto();
+		produto.setNome("Bola");
+		produto.setDescricao("bola de futebol Nike");
+		produto.setPreco(40.50);
+		return produto;
+	}
+
+	private static Session getSession() {
+		
+		AnnotationConfiguration configuration = new AnnotationConfiguration();
+		configuration.configure();
+		
+		SessionFactory factory = configuration.buildSessionFactory();
+		Session session = factory.openSession();
+		return session;
 	}
 }

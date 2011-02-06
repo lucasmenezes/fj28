@@ -1,3 +1,6 @@
 1296682439532	Rename type 'TesteDeSessao'
 1296683030575	Delete elements
 1296683052270	Delete element
+1297020146066	Extract method 'getSession'
+1297020268892	Extract method 'criaProduto'
+1297020317102	Extract method 'gravaProduto'
